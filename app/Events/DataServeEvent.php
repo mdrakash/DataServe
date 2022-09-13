@@ -32,6 +32,6 @@ class DataServeEvent implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-        return new Channel('sendmsg');
+        return new Channel('dataserving');
     }
 }

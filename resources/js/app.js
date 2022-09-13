@@ -1,7 +1,7 @@
 require('./bootstrap');
 
 console.log("run");
-const channels = Echo.channel('sendmsg');
+const channels = Echo.channel('dataserving');
 channels.subscribed(()=>{
     console.log("sub");
 }).listen('DataServeEvent',(e)=>{
